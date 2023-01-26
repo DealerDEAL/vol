@@ -1,0 +1,55 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+//void arranging(int comand_a, int comand_b)
+void account
+int main()
+{
+    int comand_a [6];
+    for (int i=0; i<6; i++){
+        comand_a[i]=i+1;
+    }
+    int comand_b [6];
+    for (int i=0; i<6; i++){
+        comand_b[i]=i+1;
+    }
+    arranging(comand_a,comand_b);
+   account;
+   //int con=0;
+ /*   do 
+    {
+    cout<<comand_b[con];
+    con++;
+    }while (con<6);
+    *///(проверка массива)
+    return 0;
+}
+/*void arranging(int comand_a, int comand_b){
+     int arranging_a[1][2];
+     for (int i=0; i<1; i++){
+         for(int n=0; n<2; n++){
+             int con=0;
+             int arranging_a[i][n]=comand_a[con];
+         }
+     }
+      int arranging_b[1][2];
+     for (int i=0; i<1; i++){
+         for(int n=0; n<2; n++){
+             int con=0;
+             int arranging_b[i][n]=comand_b[con];
+         }
+     }
+ }*/
+
+ int GetRandomNumber(int min, int max)
+{
+    srand(time(NULL));
+    int num = min + rand() % (max - min + 1);
+    return num;
+}
+ void account(){
+    int filing;
+    filing = GetRandomNumber(1, 2);
+    if(filing=1)
+ }
